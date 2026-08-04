@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LENA Wedding Studio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.55)),url("https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1800");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:65px;
+letter-spacing:3px;
+}
+
+.hero p{
+margin-top:20px;
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:16px 40px;
+background:#ffffff;
+color:#111;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+}
+
+section{
+padding:80px 8%;
+}
+
+h2{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1f1f1f;
+border-radius:15px;
+overflow:hidden;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:350px;
+object-fit:cover;
+}
+
+.card h3{
+padding:20px;
+text-align:center;
+}
+
+.contact{
+text-align:center;
+line-height:2;
+font-size:20px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#000;
+margin-top:60px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<div>
+
+<h1>LENA Wedding Studio</h1>
+
+<p>Lưu giữ từng khoảnh khắc hạnh phúc</p>
+
+<a class="btn" href="#album">Xem Album</a>
+
+</div>
+
+</div>
+
+<section id="album">
+
+<h2>Album Mẫu</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=900">
+
+<h3>Pre Wedding</h3>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=900">
+
+<h3>Wedding Day</h3>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=900">
+
+<h3>Studio Concept</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Liên Hệ</h2>
+
+<div class="contact">
+
+📍 14 Phố Vác - Dân Hòa - Thanh Oai - Hà Nội
+
+<br><br>
+
+📞 0988 633 518
+
+<br>
+
+📞 0961 331 622
+
+<br><br>
+
+Facebook | TikTok | Zalo
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 LENA Wedding Studio
+
+</footer>
+
+</body>
+
+</html>
